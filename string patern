@@ -1,0 +1,27 @@
+/*INPUT:- AYUSH
+OUTPUT:-
+A
+AY
+AYU
+AYUS
+AYUSH
+*/
+#include<stdio.h>
+#include<conio.h>
+#include<string.h>
+int main()
+{char ch[20];
+int l,i,j,a;
+printf("enter the string :");
+scanf("%s",&ch);
+a=strlen(ch);
+for (i=0;i<a;i++)
+{
+    for(j=0;j<=i;j++)
+    {
+        printf("%c",ch[j]);
+    }
+    printf(" \n");
+}
+    return 0;
+}
