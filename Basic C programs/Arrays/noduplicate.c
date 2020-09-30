@@ -1,7 +1,7 @@
 // Programs to Remove Duplicate Elements in an Array entered by User .
 #include<stdio.h>
 int main()
-{   int i,n,j,dup;
+{   int i,n,j,dup,l=0;
     dup=0;
     int a[10];
     printf("Enter Size");   //Obtaining the size of Array.
@@ -24,9 +24,14 @@ int main()
     }
 
     printf("- NEW ARRAY -");
-    for(i=0;i<n;i++)
+  /*  for(i=0;i<n;i++)
     {   printf("%d",a[i]);
-    }
+    }*/
+ 
+ while(l !=n-1){
+     print("%d",a[i]);
+     l++;
+           }
 
     return 0;
 }
